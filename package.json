@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "webpack -p",
     "serve:backend": "pipenv run python manage.py runserver 4000",
     "serve:frontend": "webpack-dev-server"
   },
