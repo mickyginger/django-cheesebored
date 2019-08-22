@@ -12,14 +12,14 @@ class CheesesShow extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`/api/cheeses/${this.props.match.params.id}/`)
+    axios.get(`/api/cheeses/${this.props.match.params.id}`)
       .then(res => this.setState({ cheese: res.data }))
   }
 
   handleDelete() {
     const token = Auth.getToken()
 
-    axios.delete(`/api/cheeses/${this.props.match.params.id}`, {
+    axios.delete(`/api/cheeses${this.props.match.params.id}`, {
       headers: { Authorization: `Bearer ${token}` }
     })
       .then(() => this.props.history.push('/cheeses'))

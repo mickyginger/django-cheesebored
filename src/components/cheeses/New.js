@@ -25,7 +25,7 @@ class New extends React.Component {
   handleSubmit(e) {
     e.preventDefault()
 
-    axios.post('/api/cheeses/', this.state.formData, {
+    axios.post('/api/cheeses', this.state.formData, {
       headers: { 'Authorization': `Bearer ${Auth.getToken()}` }
     })
       .then(() => this.props.history.push('/cheeses'))

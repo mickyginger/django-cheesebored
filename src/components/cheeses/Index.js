@@ -12,7 +12,7 @@ class CheesesIndex extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/api/cheeses/')
+    axios.get('/api/cheeses')
       .then(res => this.setState({ cheeses: res.data }))
   }
 

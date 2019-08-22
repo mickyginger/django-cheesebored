@@ -16,7 +16,7 @@ class Edit extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`/api/cheeses/${this.props.match.params.id}/`)
+    axios.get(`/api/cheeses/${this.props.match.params.id}`)
       .then(res => this.setState({ formData: res.data }))
   }
 
@@ -32,7 +32,7 @@ class Edit extends React.Component {
     const token = Auth.getToken()
     const cheeseId = this.props.match.params.id
 
-    axios.put(`/api/cheeses/${cheeseId}`, this.state.formData, {
+    axios.put(`/api/cheeses${cheeseId}`, this.state.formData, {
       headers: { 'Authorization': `Bearer ${token}` }
     })
       .then(() => this.props.history.push(`/cheeses/${cheeseId}`))
