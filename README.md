@@ -6,7 +6,7 @@
 
 - [x] Seeds file
 - [x] Postgres database
-- [ ] Deployment to Heroku
+- [x] Deployment to Heroku
 - [ ] Tests
 - [ ] Proxy requests
 - [ ] Secret key management
