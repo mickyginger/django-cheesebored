@@ -6,7 +6,7 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/', include('rest_framework.urls')),
-    path('api/', include('cheeses.urls')),
+    path('api/', include('api.urls')),
+    path('', views.Home.as_view()),
     re_path(r'^(?P<filename>[\w\.]+)$', views.Assets.as_view()),
-    path('', views.Home.as_view())
 ]

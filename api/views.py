@@ -6,10 +6,10 @@ from rest_framework.exceptions import AuthenticationFailed
 from django.http import Http404
 from django.contrib.auth.models import User
 from django.conf import settings
+from project.permissions import IsUserOrReadOnly
 import jwt
 from .models import Cheese
 from .serializers import CheeseSerializer, UserSerializer, BaseUserSerializer
-from .permissions import IsUserOrReadOnly
 
 class CheeseList(APIView):
 
@@ -24,7 +24,7 @@ class CheeseList(APIView):
     def post(self, request, _format=None):
         serializer = CheeseSerializer(data=request.data)
         if serializer.is_valid():
-            serializer.save(creator=request.user)
+            serializer.save(user=request.user)
             return Response(serializer.data, status=HTTP_201_CREATED)
 
         return Response(serializer.errors, status=HTTP_422_UNPROCESSABLE_ENTITY)

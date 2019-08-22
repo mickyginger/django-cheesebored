@@ -4,10 +4,11 @@
   "fields": {
     "username": "admin",
     "email": "admin@ga.co",
-    "password": "pass"
+    "password": "37fae882af0912ced5577ed0f512b4014b9c8551"
   }
 },{
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 1,
   "fields": {
     "name": "Gorgonzola",
     "origin": "Italy",
@@ -16,7 +17,8 @@
     "user": 1
   }
 },{
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 2,
   "fields": {
     "name": "Caerphilly",
     "origin": "Wales",
@@ -25,7 +27,8 @@
     "user": 1
   }
 },{
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 3,
   "fields": {
     "name": "Roquefort",
     "origin": "France",
@@ -34,7 +37,8 @@
     "user": 1
   }
   }, {
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 4,
   "fields": {
     "name": "Comté",
     "origin": "France",
@@ -43,7 +47,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 5,
   "fields": {
     "name": "Stilton",
     "origin": "England",
@@ -52,7 +57,8 @@
     "user": 1
   }
 }, {
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 6,
   "fields": {
     "name": "Smoked Gouda",
     "origin": "Netherlands",
@@ -61,7 +67,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 7,
   "fields": {
     "name": "Camembert",
     "origin": "France",
@@ -70,7 +77,8 @@
     "user": 1
   }
 }, {
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 8,
   "fields": {
     "name": "Drunken Goat",
     "origin": "Spain",
@@ -79,7 +87,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 9,
   "fields": {
     "name": "Halloumi",
     "origin": "Cyprus",
@@ -88,7 +97,8 @@
     "user": 1
   }
 }, {
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 10,
   "fields": {
     "name": "Edam",
     "origin": "Netherlands",
@@ -97,7 +107,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 11,
   "fields": {
   "name": "Port Salut",
     "origin": "France",
@@ -106,7 +117,8 @@
     "user": 1
   }
 }, {
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 12,
   "fields": {
     "name": "Wensleydale",
     "origin": "England",
@@ -115,7 +127,8 @@
     "user": 1
   }
 }, {
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 13,
   "fields": {
     "name": "Point Reyes Original Blue",
     "origin": "USA",
@@ -124,7 +137,8 @@
     "user": 1
   }
 }, {
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 14,
   "fields": {
     "name": "Mahón",
     "origin": "Spain",
@@ -133,7 +147,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 15,
   "fields": {
     "name": "Vella Dry Monterey Jack",
     "origin": "USA",
@@ -142,7 +157,8 @@
     "user": 1
   }
 }, {
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 16,
   "fields": {
     "name": "Emmentaler Classic",
     "origin": "Switzerland",
@@ -151,7 +167,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 17,
   "fields": {
     "name": "Roaring 40s Blue",
     "origin": "Australia",
@@ -160,7 +177,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 18,
   "fields": {
     "name": "Mirabo Walnut Brie",
     "origin": "Germay",
@@ -169,7 +187,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 19,
   "fields": {
     "name": "Jarlsberg",
     "origin": "Norway",
@@ -178,7 +197,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 20,
   "fields": {
     "name": "Pecorino Toscano",
     "origin": "Italy",
@@ -187,7 +207,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 21,
   "fields": {
     "name": "Lancashire",
     "origin": "England",
@@ -196,7 +217,8 @@
     "user": 1
   }
 }, {
-    "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 22,
   "fields": {
     "name": "Double Gloucester",
     "origin": "England",
@@ -205,7 +227,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 23,
   "fields": {
     "name": "Feta",
     "origin": "Greece",
@@ -214,7 +237,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 24,
   "fields": {
     "name": "Danish Havarti",
     "origin": "Denmark",
@@ -223,7 +247,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 25,
   "fields": {
     "name": "Bourdin Chèvre",
     "origin": "France",
@@ -232,7 +257,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 26,
   "fields": {
     "name": "Salemville Armish Blue",
     "origin": "USA",
@@ -241,7 +267,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 27,
   "fields": {
     "name": "Beemster Classic",
     "origin": "Netherlands",
@@ -250,7 +277,8 @@
     "user": 1
   }
 }, {
-  "model": "cheeses.Cheese",
+  "model": "api.Cheese",
+  "pk": 28,
   "fields": {
     "name": "Manchego",
     "origin": "Netherlands",

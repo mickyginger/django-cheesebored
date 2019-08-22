@@ -1,1 +1,1 @@
-web: gunicorn cheesebored.wsgi
+web: gunicorn project.wsgi
