@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET', '5c$-&2rth*hhr4ztf9mevg9z$y#!*-(vrz8i)iskr
 # SECURITY WARNING: don't run with debug turned on in production!
 PYTHON_ENV = os.environ.get('PYTHON_ENV', 'development')
 DEBUG = PYTHON_ENV != 'production'
-
+print(DEBUG)
 ALLOWED_HOSTS = []
 
 APPEND_SLASH = False
