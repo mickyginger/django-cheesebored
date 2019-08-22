@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+$family-primary: 'Raleway';
+$primary: #d10068;
+
+$radius: 0;
+$radius-small: 0;
+$radius-large: 0;
+
+$column-gap: 0.25rem;
+
+@import '~bulma'

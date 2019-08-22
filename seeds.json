@@ -1,0 +1,261 @@
+[{
+  "model": "auth.User",
+  "pk": 1,
+  "fields": {
+    "username": "admin",
+    "email": "admin@ga.co",
+    "password": "pass"
+  }
+},{
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Gorgonzola",
+    "origin": "Italy",
+    "image": "https://www.mediterraneanfoods.co.nz/wp-content/uploads/2018/05/gorgonzola-600x600.jpg",
+    "tasting_notes": "Gorgonzola is traditionally a rich creamy cheese, but the blue-green ripples add a sharp spicy flavor that provides an excellent contrast to its richness. The taste ranges from mild to sharp, depending on age.",
+    "user": 1
+  }
+},{
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Caerphilly",
+    "origin": "Wales",
+    "image": "https://www.paxtonandwhitfield.co.uk/media/image/97/18/9f/image_1_199LvwjIApLQ1lud_600x600.jpg",
+    "tasting_notes": "This young cheese has an ivory white rind with a pale colored paste and semi-firm texture. It's a moist, crumbly cheese, and its flavor is usually described as salty buttermilk, slightly sour, but buttery.",
+    "user": 1
+  }
+},{
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Roquefort",
+    "origin": "France",
+    "image": "https://les-alpages.fr/wp-content/uploads/2014/08/roquefort-vieux-berger-3.jpg",
+    "tasting_notes": "Roquefort has a tingly pungent taste, a distinct bouquet, and a flavor that combines the sweet burnt-caramel taste of sheep's milk with the sharp, metallic tang of the blue mold.",
+    "user": 1
+  }
+  }, {
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Comté",
+    "origin": "France",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41XqskMEEOL._SY355_.jpg",
+    "tasting_notes": "Salty, mild, and lightly fruity with hazelnut and nutmeg flavors.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Stilton",
+    "origin": "England",
+    "image": "https://www.goudacheeseshop.com/pub/media/catalog/product/cache/a25e779ca7262f8cf9233993fa6b28be/b/l/blue_stilton_5_1.jpg",
+    "tasting_notes": "Milder than Roquefort or Gorgonzola, Stilton has a rich and mellow flavor with a pungent aftertaste. The finest Stilton is creamy with a subtle, yeasty sweetness and a salty, nutty finish.",
+    "user": 1
+  }
+}, {
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Smoked Gouda",
+    "origin": "Netherlands",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41XqskMEEOL._SY355_.jpg",
+    "tasting_notes": "Smoked Gouda is a bit nuttier tasting than the regular Gouda. Containing 45% butterfat, it’s buttery, creamy and smooth with sweet and salty notes.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Camembert",
+    "origin": "France",
+    "image": "https://3.imimg.com/data3/EM/LH/MY-2/cheese-500x500.png",
+    "tasting_notes": "The flavor of Camembert is definitely the main reason for its worldwide popularity. Open the lid on your Camembert box and you will immediately notice an aroma of mushrooms with a subtle braised cabbage undertone.",
+    "user": 1
+  }
+}, {
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Drunken Goat",
+    "origin": "Spain",
+    "image": "https://www.wegmans.com/content/dam/wegmans/products/008/102008.jpg",
+    "tasting_notes": "The flavor begins mild and oh-so-creamy, but finishes with a wonderful tangy sweetness and a fruity, luscious, grapey aroma.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Halloumi",
+    "origin": "Cyprus",
+    "image": "https://cdn.shopify.com/s/files/1/1198/2742/products/grilledHalloumi_1024x1024.jpg?v=1470820632",
+    "tasting_notes": "Halloumi has a very appealing flavor that's unlike any other cheese: mellow, but not in the least boring, mildly feta-like, notably tangy, and never too strong.",
+    "user": 1
+  }
+}, {
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Edam",
+    "origin": "Netherlands",
+    "image": "https://www.cheesewiki.com/system/images/1986/medium/edam-cheese-pic-rex-features-862302803.jpg?1268260174",
+    "tasting_notes": "Aged Edam is mild, slightly salty and nutty.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+  "name": "Port Salut",
+    "origin": "France",
+    "image": "https://www.wisconsincheesemart.com/store/uploads/dzpro_shop_items/dzpro_shop_item_image/portsalutfrenchcheese-jpg.jpg",
+    "tasting_notes": "Port Salut is a semi-soft natural cheese that is most recognized by its orange rind. Don’t be put off by the smell—which can be strong because it’s a washed rind cheese. It will still have a relatively mild flavor—savory and slightly sweet. The smell will increase the longer the cheese is kept but, again, the smell doesn’t affect its flavor.",
+    "user": 1
+  }
+}, {
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Wensleydale",
+    "origin": "England",
+    "image": "https://i.dailymail.co.uk/i/pix/2013/12/19/article-2526583-003DBA2900000258-977_634x409.jpg",
+    "tasting_notes": "Descriptions of White Wensleydale are somewhat paradoxical. It is firm but not dry or hard; creamy with a surface that is crumbly; slightly sweet but also tart in flavor.",
+    "user": 1
+  }
+}, {
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Point Reyes Original Blue",
+    "origin": "USA",
+    "image": "https://gfimages.azureedge.net/egp/Original_Blue_PointReyes_P032016.jpg",
+    "tasting_notes": "Even if you’re not a fan of blue cheeses, Point Reyes Original Blue’s sweet, buttery and fresh milk flavor will sure win you over.",
+    "user": 1
+  }
+}, {
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Mahón",
+    "origin": "Spain",
+    "image": "https://lunya.co.uk/wp-content/uploads/2013/11/mahon-slice1-300x199.jpg",
+    "tasting_notes": "A unique cheese with a sweet and fruity aroma and a rich, bold flavor, Mahón is not for those who prefer bland cheeses.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Vella Dry Monterey Jack",
+    "origin": "USA",
+    "image": "https://cdn.shopify.com/s/files/1/1935/9089/products/vella-dry-jack_3_800x.jpg?v=1494038115",
+    "tasting_notes": "Grated onto salads, soups or pastas, Dry Jack is a winner! It's wonderful eaten on its own for snacks or sandwiches and it is delicious after dinner with fresh fruit and a handful of toasted walnuts.",
+    "user": 1
+  }
+}, {
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Emmentaler Classic",
+    "origin": "Switzerland",
+    "image": "https://www.cheesesfromswitzerland.com/typo3temp/GB/199b7d6351.png",
+    "tasting_notes": "Authentic Swiss cheese is never harsh or bitter, but should present a degree of acidity on the finish.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Roaring 40s Blue",
+    "origin": "Australia",
+    "image": "https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18140907/fc42tt020-01-main.jpg",
+    "tasting_notes": "Allow the cheese to fully come to room temperature and enjoy its creamy texture with a fresh baguette, red grapes, figs and/or walnuts.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Mirabo Walnut Brie",
+    "origin": "Germay",
+    "image": "https://ultrafoods.ca/wp-content/uploads/2018/05/Mirabo-Walnut-Cheese.jpg",
+    "tasting_notes": "Made in the fertile land of Bavaria, this brie style cheese with walnuts is delicate and ripened to a soft consistency. Its unique shape and presentation really set it apart on a cheese board, and its delicate flavor is sure to please.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Jarlsberg",
+    "origin": "Norway",
+    "image": "https://alpanddellcheese.com/wp-content/uploads/2018/02/Jarlsberg-Swiss.jpg",
+    "tasting_notes": "A mild cheese, reminiscent of Swiss, Jarlsberg has large irregular holes and a distinct nutty flavor. Its semi-firm yellow interior has a texture that is buttery rich with a mild and slightly sweet flavor.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Pecorino Toscano",
+    "origin": "Italy",
+    "image": "https://www.igourmet.com/images/productsLG/toscano.jpg",
+    "tasting_notes": "Although it's usually eaten as a table cheese, try it shaved on top of fresh beans, summer salads, or lightly sautéed greens. Use it instead of Parmigiano on your next bowl of pasta. Its flavor is dense and nutty with a wonderful rustic finish.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Lancashire",
+    "origin": "England",
+    "image": "https://www.paxtonandwhitfield.co.uk/media/image/2b/e9/c7/image_1_48wvEAydxbbCf5t_600x600.jpg",
+    "tasting_notes": "Lancashire's combination of a delicate texture and rich, creamy flavor places it in a distinct category of its own. Lancashire, like most British cheeses, is the perfect complement to a good beer or ale.",
+    "user": 1
+  }
+}, {
+    "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Double Gloucester",
+    "origin": "England",
+    "image": "https://www.paxtonandwhitfield.co.uk/media/image/b1/2f/d0/image_1_22Z30MTlY0eiVLA_600x600.jpg",
+    "tasting_notes": "This cheese is firm, but with a subtle, closed texture. Note the full, imposing flavor with notes of nuttiness, citrus and hints of onion.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Feta",
+    "origin": "Greece",
+    "image": "https://res.cloudinary.com/yourgrocer/image/upload/c_limit,f_auto,h_600,w_600/yg-8127.jpg",
+    "tasting_notes": "Greece's most famous traditional cheese, feta is an important part of the Greek diet and is used daily in salads, pastries, and a simple (and simply delicious) fried-cheese appetizer called \"saganaki\". The fact that it's made primarily from pure ewe's milk (often with some goat's milk) and ripened and stored in brine gives feta a salty, milky, slightly acidic taste.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Danish Havarti",
+    "origin": "Denmark",
+    "image": "https://www.wisconsincheesemart.com/uploads/dzpro_shop_items/dzpro_shop_item_image/1343horseradishandchive-jpg.jpg",
+    "tasting_notes": "Havarti has a mild flavor similar to a Monterey Jack. Slightly acidic, the taste is buttery and ranges from somewhat sweet to very sweet.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Bourdin Chèvre",
+    "origin": "France",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg-cguryiEDaWLHDHJym9WOI3pFZu8Al6P67ekmkLDzo_ihNMMFQ",
+    "tasting_notes": "This style of fresh goat's cheese is a staple in French markets, and for very good reason. It has a soft and moist texture and a gentle but creamy flavor.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Salemville Armish Blue",
+    "origin": "USA",
+    "image": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9271a651-f73b-49be-9d9f-a0c5e9d69cd3.jpg",
+    "tasting_notes": "This cheese has a rich, earthy flavor, well balanced and flavorful. Crumble on salad or pasta tossed with garlic and olive oil, stir into hot mashed potatoes or transform a vinaigrette into delicious blue cheese salad dressing by adding Amish Blue to it.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Beemster Classic",
+    "origin": "Netherlands",
+    "image": "https://www.igourmet.com/images/productsLG/106Q.jpg",
+    "tasting_notes": "This cheese looks and feels similar to parmesan but it is more closely related to gouda in taste and texture. The first thing you will notice when tasting the Beemster Classic is the smooth, creamy texture followed by a sharp, salty flavor due to its extensive aging.",
+    "user": 1
+  }
+}, {
+  "model": "cheeses.Cheese",
+  "fields": {
+    "name": "Manchego",
+    "origin": "Netherlands",
+    "image": "https://cdn.shopify.com/s/files/1/1935/9089/products/aged-manchego_3_800x.jpg?v=1494038155",
+    "tasting_notes": "Manchego has a distinctive flavor and an equally distinctive look. It can be recognized by a unique zigzag or cross hatch pattern on its black-gray or buff-colored rind which is created by the rippled surface of the press used to make it. Don’t eat the rind—it’s inedible— but inside you’ll discover an ivory-colored interior with several small holes that’s a real treat.",
+    "user": 1
+  }
+}]
