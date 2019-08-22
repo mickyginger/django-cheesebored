@@ -1,10 +1,13 @@
+const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './src/app.js',
+  context: path.resolve(__dirname, 'frontend'),
   output: {
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'frontend/dist')
   },
   devtool: 'source-maps',
   module: {
