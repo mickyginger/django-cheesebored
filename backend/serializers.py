@@ -9,6 +9,7 @@ class BaseCheeseSerializer(serializers.ModelSerializer):
         fields = ('id', 'name', 'origin', 'image', 'tasting_notes')
 
 
+
 class CheeseSerializer(serializers.ModelSerializer):
 
     user = jwt_serializers.UserSerializer(read_only=True)
